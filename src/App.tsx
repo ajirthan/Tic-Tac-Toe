@@ -12,7 +12,7 @@ function App() {
                 <Header/>
                 <div className="flex items-center justify-center w-full h-[30rem]">
                     <Board/>
-                    <div className="bg-red-400 h-[40rem] w-72 aspect-square flex items-start justify-center">Move History</div>
+                    <div className="border-4 border-slate-500 h-[40rem] w-72 aspect-square flex items-start justify-center text-slate-500 font-bold rounded-2xl pt-2">Move History</div>
                 </div>
                 <Footer/>
             </div>
